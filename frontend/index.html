@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rail Web</h1>
+            <div class="divider"></div>
+        </header>
+        <div class="input-form">
+    <div class="fields-container">
+        <input type="text" id="source" placeholder="Source Station Code" autocapitalize="characters">
+        <div id="source-suggestions" class="suggestions"></div>
+
+        <input type="text" id="destination" placeholder="Destination Station Code" autocapitalize="characters">
+        <div id="destination-suggestions" class="suggestions"></div>
+    </div>
+
+    <img src="swap-icon.png" id="swap-btn" onclick="swapStations()">
+
+    <button onclick="search()">Find Route</button>
+</div>
+
+        <div id="results"></div>
+    </div>
+    <script src="stations.js"></script>  <!-- stationMap = { "New Delhi": "NDLS", ... } -->
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("source").addEventListener("input", (e) => {
+            e.target.value = e.target.value.toUpperCase();
+        });
+
+        document.getElementById("destination").addEventListener("input", (e) => {
+            e.target.value = e.target.value.toUpperCase();
+        });
+
+        function swapStations() {
+            const src = document.getElementById("source");
+            const dst = document.getElementById("destination");
+
+            const temp = src.value;
+            src.value = dst.value;
+            dst.value = temp;
+        }
+    </script>
+</body>
+</html>
