@@ -32,7 +32,7 @@ It is designed as a **learning‑focused, ethical, and open tool** for creators 
 - Simple HTTP requests from any app or frontend  
 - Easy to integrate in Unity, React, Android, etc.
 
-## 🖥️ Beautiful Web Frontend
+🧼 **Clean & Minimal Structure**  
 
 RailWeb also comes with a **clean, responsive web frontend** built with:
 
