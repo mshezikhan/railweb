@@ -44,14 +44,12 @@ It is designed as a **learning‑focused, ethical, and open tool** for creators 
 
 And much more under the hood.
 
-## 📸 Screenshots (Example)
+## 📸 Screenshots
 
 | View | Description |
 |------|-------------|
-| `app.py` | Core Flask backend with routes |
-| `algorithm.py` | Clean route‑finding logic with `find_routes()` |
-| `stations.txt` / `routes.txt` | Simple data files for station and route information |
-| Postman / API Test | Example `POST /find-route` request and JSON output |
+| ![Main](screenshots/main.PNG) | Main window with input fields |
+| ![Response](screenshots/response.PNG) | Response/Routes |
 
 ---
 
