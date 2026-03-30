@@ -32,6 +32,24 @@ It is designed as a **learning‑focused, ethical, and open tool** for creators 
 - Simple HTTP requests from any app or frontend  
 - Easy to integrate in Unity, React, Android, etc.
 
+## 🖥️ Beautiful Web Frontend
+
+RailWeb also comes with a **clean, responsive web frontend** built with:
+
+- **HTML**  
+- **CSS**  
+- **JavaScript**
+
+This frontend:
+- Connects to the RailWeb API (`/find-route`)  
+- Shows routes, stations, and key details  
+- Provides a **user‑friendly interface** while using the same backend logic
+
+You can:
+- Run the backend with `python app.py`  
+- Open `index.html` or the frontend folder in your browser  
+- See the full experience: **API‑powered route planner with a polished UI**
+
 🧠 **Offline‑First Design**  
 - Uses local text files for station and route data  
 - No heavy external APIs required  
