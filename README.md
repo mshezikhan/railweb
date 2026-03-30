@@ -24,10 +24,8 @@ It is designed as a **learning‑focused, ethical, and open tool** for creators 
 ## 🚀 Features
 
 🚉 **Multi‑Route Suggestions** – Discover all possible station‑to‑station routes  
-📘 **Train‑Level Details** – Train numbers, classes, validities  
+📘 **Train‑Level Details** – Train numbers, Names  
 🔁 **Smart Transfer Logic** – Suggests realistic transfer points between trains  
-💡 **Cost‑Aware Routes** – Prioritizes cheaper and faster options  
-🌊 **Multiple Travel Modes** – AC, sleeper, local, and more (if available)  
 
 🎨 **Developer‑Friendly JSON API**  
 - Clean, consistent JSON responses  
@@ -46,23 +44,6 @@ It is designed as a **learning‑focused, ethical, and open tool** for creators 
 
 And much more under the hood.
 
----
-
-## ⚠️ Ethical Use Disclaimer
-
-🚨 **RailWeb does NOT support misuse.**
-
-This software is intended for:
-- Educational and learning purposes  
-- Personal railway‑planning experiments  
-- Publicly available, non‑copyrighted timetable data  
-
-The developer is **not responsible** for misuse of this software.  
-
-Please respect railway data sources and official terms.
-
----
-
 ## 📸 Screenshots (Example)
 
 | View | Description |
@@ -72,13 +53,12 @@ Please respect railway data sources and official terms.
 | `stations.txt` / `routes.txt` | Simple data files for station and route information |
 | Postman / API Test | Example `POST /find-route` request and JSON output |
 
-> *(You can add actual screenshots later and update this table.)*
-
 ---
 
 ## 🛠 Tech Stack
 
-- **Language:** Python  
+- **Language:** Python
+- **Frontend:** HTML, CSS, JS   
 - **Backend:** Flask  
 - **API Style:** RESTful JSON  
 - **Data Format:** Plain text files (`stations.txt`, `routes.txt`)  
@@ -89,7 +69,7 @@ Please respect railway data sources and official terms.
 ## ⚙️ Local Setup
 
 ```bash
-git clone https://github.com/yourusername/railweb.git
+git clone https://github.com/mshezikhan/railweb.git
 cd railweb
 python -m venv venv
 venv\Scripts\activate     # on Windows
@@ -131,4 +111,4 @@ We welcome:
 
 ---
 
-Made with ❤️ by **Shikeb Khan**
+Made with ❤️ by **Shezi Khan**
