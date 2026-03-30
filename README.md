@@ -115,6 +115,7 @@ curl -X POST http://127.0.0.1:5000/find-route \
 5. Open a Pull Request 🚀  
 
 We welcome:
+- data update (see provided data file to understand the format in data folder and prepare graph.json by running build_graph.py)
 - new route‑logic improvements  
 - better JSON formatting  
 - better docs or README examples  
